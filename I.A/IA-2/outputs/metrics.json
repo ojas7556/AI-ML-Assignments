@@ -1,0 +1,30 @@
+{
+  "classification": {
+    "ROC_AUC": 0.9894752278983544,
+    "Average_Precision": 0.9480261800591806,
+    "Precision": 0.8800187837520544,
+    "Recall": 0.8514311676510677,
+    "F1": 0.8654889735596352,
+    "Test_rows": 31330.0,
+    "Test_engines": 142.0,
+    "Threshold": 0.5881601661012676
+  },
+  "regression": {
+    "RF_MAE_cycles": 11.228136239131729,
+    "RF_RMSE_cycles": 15.903186887909019,
+    "RF_R2": 0.8522989705482096,
+    "Baseline_MAE_cycles": 34.6937120970316,
+    "Baseline_RMSE_cycles": 47.68291172128896,
+    "Test_rows": 31330.0,
+    "Test_engines": 142.0
+  },
+  "official_test": {
+    "Engines": 707.0,
+    "Regression_MAE_cycles": 13.132229507136456,
+    "Regression_RMSE_cycles": 17.504540522435374,
+    "Regression_R2": 0.827010277631392,
+    "Class_ROC_AUC": 0.9850571546618923,
+    "Class_Recall_at_threshold": 0.8616352201257862,
+    "Class_Precision_at_threshold": 0.8896103896103896
+  }
+}
